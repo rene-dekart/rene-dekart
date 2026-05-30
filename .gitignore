@@ -1,0 +1,14 @@
+docs/superpowers/
+.claude/
+.superpowers/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+node_modules/
