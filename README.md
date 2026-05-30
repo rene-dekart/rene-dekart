@@ -1,37 +1,34 @@
-<h1 align="left">
-  <code>➜ whoami</code>
-</h1>
-
-<h3 align="left">
-  Hi, I'm <strong>rene-dekart</strong> 👋
-</h3>
-<p align="left">
-  <sub>Full-Stack Developer · Building backends that scale</sub>
-</p>
+`➜ whoami`
+**rene-dekart** 👋
 
 ---
 
-<code>➜ uptime</code>
-
-⏱️ **[X]** years of building backends & databases
+`➜ uptime`
+⏱️ **6** years of commercial experience
 
 ---
 
-<code>➜ ls ~/skills/</code>
+`➜ ls ~/skills/`
 
 <sub>[backend]</sub><br>
-<img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="Node.js">
+<img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="Java">
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="Python">
-<img src="https://img.shields.io/badge/Go-0d1117?style=for-the-badge&logo=go&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="Go">
+<img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="TypeScript">
+
+<sub>[frameworks]</sub><br>
+<img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=for-the-badge&logo=springboot&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="Spring Boot">
+<img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="FastAPI">
+
+<sub>[blockchain]</sub><br>
+<img src="https://img.shields.io/badge/Hyperledger_Fabric-0d1117?style=for-the-badge&logo=hyperledger&logoColor=3fb950&labelColor=0d1117&color=30363d" alt="Hyperledger Fabric">
 
 <sub>[database]</sub><br>
 <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=58a6ff&labelColor=0d1117&color=30363d" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=58a6ff&labelColor=0d1117&color=30363d" alt="MongoDB">
-<img src="https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis&logoColor=58a6ff&labelColor=0d1117&color=30363d" alt="Redis">
+<img src="https://img.shields.io/badge/Elasticsearch-0d1117?style=for-the-badge&logo=elasticsearch&logoColor=58a6ff&labelColor=0d1117&color=30363d" alt="Elasticsearch">
 
 ---
 
-<code>➜ ls ~/projects/</code>
+`➜ ls ~/projects/`
 
 <table>
 <tr>
@@ -62,13 +59,13 @@
 
 ---
 
-<code>➜ echo $CURRENT_FOCUS</code>
+`➜ echo $CURRENT_FOCUS`
 
 🎯 Currently working on **[your current project]**
 
 ---
 
-<code>➜ gh stats</code>
+`➜ gh stats`
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=rene-dekart&theme=github_dark&hide_border=true&show_icons=true&icon_color=3fb950&title_color=3fb950&text_color=c9d1d9&bg_color=0d1117&border_color=30363d" alt="GitHub Stats" width="48%">
@@ -85,7 +82,7 @@
 
 ---
 
-<code>➜ connect --list</code>
+`➜ connect --list`
 
 <a href="mailto:[your-email]">
   <img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=c9d1d9&labelColor=0d1117&color=30363d" alt="Email">
