@@ -33,7 +33,6 @@
   <!-- skills -->
   <text x="20" y="168" class="prompt">➜ ls ~/skills/</text>
 
-  <!-- [backend] -->
   <text x="20" y="194" class="label">[backend]</text>
   <rect x="20"  y="202" width="56" height="24" class="pill-green"/>
   <text x="48"  y="214" class="pill-text" fill="#3fb950">Java</text>
@@ -42,19 +41,16 @@
   <rect x="164" y="202" width="104" height="24" class="pill-green"/>
   <text x="216" y="214" class="pill-text" fill="#3fb950">TypeScript</text>
 
-  <!-- [frameworks] -->
   <text x="20" y="250" class="label">[frameworks]</text>
   <rect x="20"  y="258" width="108" height="24" class="pill-green"/>
   <text x="74"  y="270" class="pill-text" fill="#3fb950">Spring Boot</text>
   <rect x="136" y="258" width="76" height="24" class="pill-green"/>
   <text x="174" y="270" class="pill-text" fill="#3fb950">FastAPI</text>
 
-  <!-- [blockchain] -->
   <text x="20" y="306" class="label">[blockchain]</text>
   <rect x="20" y="314" width="162" height="24" class="pill-green"/>
   <text x="101" y="326" class="pill-text" fill="#3fb950">Hyperledger Fabric</text>
 
-  <!-- [database] -->
   <text x="20" y="362" class="label">[database]</text>
   <rect x="20"  y="370" width="100" height="24" class="pill-blue"/>
   <text x="70"  y="382" class="pill-text" fill="#58a6ff">PostgreSQL</text>
@@ -64,7 +60,6 @@
   <!-- projects -->
   <text x="20" y="422" class="prompt">➜ ls ~/projects/</text>
 
-  <!-- Project cards row 1 -->
   <rect x="20"  y="440" width="350" height="52" class="project-card"/>
   <text x="34"  y="458" class="project-name">[project-one]</text>
   <text x="34"  y="478" class="project-desc">High-performance API gateway</text>
@@ -81,7 +76,6 @@
   <rect x="678" y="448" width="42" height="18" class="pill-blue"/>
   <text x="699" y="457" class="pill-text" fill="#58a6ff" font-size="10">PgSQL</text>
 
-  <!-- Project cards row 2 -->
   <rect x="20"  y="500" width="350" height="52" class="project-card"/>
   <text x="34"  y="518" class="project-name">[project-three]</text>
   <text x="34"  y="538" class="project-desc">Microservices auth system</text>
@@ -100,10 +94,13 @@
   <text x="20" y="582" class="prompt">➜ echo $CURRENT_FOCUS</text>
   <text x="20" y="606" class="content">Currently working on <tspan class="bold">___</tspan></text>
 
-  <!-- stats -->
-  <text x="20" y="638" class="prompt">➜ gh stats</text>
-  <text x="20" y="662" class="content">See <tspan fill="#58a6ff">github.com/rene-dekart</tspan></text>
-
   <!-- connect -->
-  <text x="20" y="694" class="prompt">➜ connect --list</text>
+  <text x="20" y="638" class="prompt">➜ connect --list</text>
+  <rect x="20"  y="650" width="72" height="24" class="pill-green"/>
+  <text x="56"  y="662" class="pill-text" fill="#3fb950">Email</text>
+  <rect x="100" y="650" width="92" height="24" class="pill-green"/>
+  <text x="146" y="662" class="pill-text" fill="#3fb950">Telegram</text>
+
+  <!-- gh stats -->
+  <text x="20" y="694" class="prompt">➜ gh stats</text>
 </svg>
