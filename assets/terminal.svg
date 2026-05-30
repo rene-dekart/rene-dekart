@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="750" height="410" viewBox="0 0 750 410">
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="720" viewBox="0 0 750 720">
   <style>
     .prompt { font: 600 15px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #3fb950; }
     .content { font: 400 15px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #c9d1d9; }
@@ -7,11 +7,14 @@
     .pill-text { font: 400 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; text-anchor: middle; dominant-baseline: central; }
     .pill-green { fill: #161b22; stroke: #3fb950; stroke-width: 1; rx: 4; }
     .pill-blue { fill: #161b22; stroke: #58a6ff; stroke-width: 1; rx: 4; }
+    .project-name { font: 600 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #f0f6fc; }
+    .project-desc { font: 400 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #8b949e; }
+    .project-card { fill: #161b22; stroke: #21262d; stroke-width: 1; rx: 6; }
   </style>
 
   <!-- Background -->
-  <rect width="750" height="410" fill="#0d1117" rx="8"/>
-  <rect width="750" height="410" fill="none" stroke="#30363d" rx="8"/>
+  <rect width="750" height="720" fill="#0d1117" rx="8"/>
+  <rect width="750" height="720" fill="none" stroke="#30363d" rx="8"/>
 
   <!-- Title bar -->
   <circle cx="20" cy="16" r="6" fill="#f85149"/>
@@ -19,15 +22,15 @@
   <circle cx="60" cy="16" r="6" fill="#3fb950"/>
   <line x1="0" y1="32" x2="750" y2="32" stroke="#21262d"/>
 
-  <!-- ── whoami ── -->
+  <!-- whoami -->
   <text x="20" y="56" class="prompt">➜ whoami</text>
   <text x="20" y="80" class="content"><tspan class="bold">rene-dekart</tspan></text>
 
-  <!-- ── uptime ── -->
+  <!-- uptime -->
   <text x="20" y="112" class="prompt">➜ uptime</text>
   <text x="20" y="136" class="content"><tspan class="bold">6</tspan> years of commercial experience</text>
 
-  <!-- ── ls ~/skills/ ── -->
+  <!-- skills -->
   <text x="20" y="168" class="prompt">➜ ls ~/skills/</text>
 
   <!-- [backend] -->
@@ -57,4 +60,50 @@
   <text x="70"  y="382" class="pill-text" fill="#58a6ff">PostgreSQL</text>
   <rect x="128" y="370" width="124" height="24" class="pill-blue"/>
   <text x="190" y="382" class="pill-text" fill="#58a6ff">Elasticsearch</text>
+
+  <!-- projects -->
+  <text x="20" y="422" class="prompt">➜ ls ~/projects/</text>
+
+  <!-- Project cards row 1 -->
+  <rect x="20"  y="440" width="350" height="52" class="project-card"/>
+  <text x="34"  y="458" class="project-name">[project-one]</text>
+  <text x="34"  y="478" class="project-desc">High-performance API gateway</text>
+  <rect x="270" y="448" width="42" height="18" class="pill-green"/>
+  <text x="291" y="457" class="pill-text" fill="#3fb950" font-size="10">Go</text>
+  <rect x="318" y="448" width="42" height="18" class="pill-blue"/>
+  <text x="339" y="457" class="pill-text" fill="#58a6ff" font-size="10">Redis</text>
+
+  <rect x="380" y="440" width="350" height="52" class="project-card"/>
+  <text x="394" y="458" class="project-name">[project-two]</text>
+  <text x="394" y="478" class="project-desc">Real-time data pipeline</text>
+  <rect x="610" y="448" width="62" height="18" class="pill-green"/>
+  <text x="641" y="457" class="pill-text" fill="#3fb950" font-size="10">Python</text>
+  <rect x="678" y="448" width="42" height="18" class="pill-blue"/>
+  <text x="699" y="457" class="pill-text" fill="#58a6ff" font-size="10">PgSQL</text>
+
+  <!-- Project cards row 2 -->
+  <rect x="20"  y="500" width="350" height="52" class="project-card"/>
+  <text x="34"  y="518" class="project-name">[project-three]</text>
+  <text x="34"  y="538" class="project-desc">Microservices auth system</text>
+  <rect x="254" y="508" width="60" height="18" class="pill-green"/>
+  <text x="284" y="517" class="pill-text" fill="#3fb950" font-size="10">Node.js</text>
+  <rect x="320" y="508" width="42" height="18" class="pill-blue"/>
+  <text x="341" y="517" class="pill-text" fill="#58a6ff" font-size="10">Mongo</text>
+
+  <rect x="380" y="500" width="350" height="52" class="project-card"/>
+  <text x="394" y="518" class="project-name">[project-four]</text>
+  <text x="394" y="538" class="project-desc">CLI tool for schema management</text>
+  <rect x="678" y="508" width="42" height="18" class="pill-green"/>
+  <text x="699" y="517" class="pill-text" fill="#3fb950" font-size="10">Go</text>
+
+  <!-- focus -->
+  <text x="20" y="582" class="prompt">➜ echo $CURRENT_FOCUS</text>
+  <text x="20" y="606" class="content">Currently working on <tspan class="bold">___</tspan></text>
+
+  <!-- stats -->
+  <text x="20" y="638" class="prompt">➜ gh stats</text>
+  <text x="20" y="662" class="content">See <tspan fill="#58a6ff">github.com/rene-dekart</tspan></text>
+
+  <!-- connect -->
+  <text x="20" y="694" class="prompt">➜ connect --list</text>
 </svg>
