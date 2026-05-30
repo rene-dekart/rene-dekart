@@ -42,8 +42,11 @@
 <img src="./assets/prompt-stats.svg" alt="stats">
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=rene-dekart&theme=github_dark&hide_border=true&show_icons=true&icon_color=3fb950&title_color=3fb950&text_color=c9d1d9&bg_color=0d1117&border_color=30363d" alt="GitHub Stats" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rene-dekart&theme=github_dark&hide_border=true&layout=compact&title_color=3fb950&text_color=c9d1d9&bg_color=0d1117&border_color=30363d" alt="Top Languages" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rene-dekart&theme=github_dark" alt="GitHub Stats" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rene-dekart&theme=github_dark" alt="Repos per Language" width="48%">
+</p>
+<p align="left">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rene-dekart&theme=github_dark" alt="Most Commit Language" width="48%">
 </p>
 
 <p align="left">
