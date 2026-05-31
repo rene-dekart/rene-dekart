@@ -10,6 +10,8 @@
     .project-name { font: 600 13px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #f0f6fc; }
     .project-desc { font: 400 12px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #8b949e; }
     .project-card { fill: #161b22; stroke: #21262d; stroke-width: 1; rx: 6; }
+    .project-link { cursor: pointer; }
+    .project-link:hover .project-card { stroke: #58a6ff; }
   </style>
 
   <!-- Background -->
@@ -60,14 +62,17 @@
   <!-- projects -->
   <text x="20" y="422" class="prompt">➜ ls ~/projects/</text>
 
+  <a href="https://github.com/rene-dekart/telebrief/tree/master" target="_blank" class="project-link">
   <rect x="20"  y="440" width="350" height="52" class="project-card"/>
-  <text x="34"  y="458" class="project-name">[project-one]</text>
-  <text x="34"  y="478" class="project-desc">High-performance API gateway</text>
-  <rect x="270" y="448" width="42" height="18" class="pill-green"/>
-  <text x="291" y="457" class="pill-text" fill="#3fb950" font-size="10">Go</text>
-  <rect x="318" y="448" width="42" height="18" class="pill-blue"/>
-  <text x="339" y="457" class="pill-text" fill="#58a6ff" font-size="10">Redis</text>
+  <text x="34"  y="458" class="project-name">[telebrief]</text>
+  <text x="34"  y="478" class="project-desc">Telegram news digest aggregator</text>
+  <rect x="240" y="448" width="62" height="18" class="pill-green"/>
+  <text x="271" y="457" class="pill-text" fill="#3fb950" font-size="10">Python</text>
+  <rect x="308" y="448" width="52" height="18" class="pill-blue"/>
+  <text x="334" y="457" class="pill-text" fill="#58a6ff" font-size="10">SQLite</text>
+  </a>
 
+  <a href="#" class="project-link">
   <rect x="380" y="440" width="350" height="52" class="project-card"/>
   <text x="394" y="458" class="project-name">[project-two]</text>
   <text x="394" y="478" class="project-desc">Real-time data pipeline</text>
@@ -75,7 +80,9 @@
   <text x="641" y="457" class="pill-text" fill="#3fb950" font-size="10">Python</text>
   <rect x="678" y="448" width="42" height="18" class="pill-blue"/>
   <text x="699" y="457" class="pill-text" fill="#58a6ff" font-size="10">PgSQL</text>
+  </a>
 
+  <a href="#" class="project-link">
   <rect x="20"  y="500" width="350" height="52" class="project-card"/>
   <text x="34"  y="518" class="project-name">[project-three]</text>
   <text x="34"  y="538" class="project-desc">Microservices auth system</text>
@@ -83,12 +90,15 @@
   <text x="284" y="517" class="pill-text" fill="#3fb950" font-size="10">Node.js</text>
   <rect x="320" y="508" width="42" height="18" class="pill-blue"/>
   <text x="341" y="517" class="pill-text" fill="#58a6ff" font-size="10">Mongo</text>
+  </a>
 
+  <a href="#" class="project-link">
   <rect x="380" y="500" width="350" height="52" class="project-card"/>
   <text x="394" y="518" class="project-name">[project-four]</text>
   <text x="394" y="538" class="project-desc">CLI tool for schema management</text>
   <rect x="678" y="508" width="42" height="18" class="pill-green"/>
   <text x="699" y="517" class="pill-text" fill="#3fb950" font-size="10">Go</text>
+  </a>
 
   <!-- focus -->
   <text x="20" y="582" class="prompt">➜ echo $CURRENT_FOCUS</text>
